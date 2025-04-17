@@ -1,0 +1,42 @@
+{
+    "projects": [
+      {
+        "name": "Workouts",
+        "description": "The Workouts App is a full-stack application, the app provides a variety of workout plans categorized by different body parts.",
+        "technologies": ["Spring", "Angular", "JS", "API", "JSON"],
+        "url": "https://github.com/amjadalnakshbandi/Workout-app"
+      },
+      {
+        "name": "LLM CSV Agent",
+        "description": "Ein Python-Tool mit Gradio-Oberfläche zur Extraktion strukturierter Daten aus Text mittels lokaler Sprachmodelle.",
+        "technologies": ["Python", "Gradio", "OpenAI"],
+        "url": "https://github.com/amjadalnakshbandi/CSV_Agent"
+      },
+      {
+        "name": "Complaint Management System",
+        "description": "Ein Java Swing-basiertes System zur Verwaltung von Kundenbeschwerden, fokussiert auf Domain-Driven Design und Clean Code.",
+        "technologies": ["Java", "Swing", "Domain-Driven Design (DDD)", "Clean Code"],
+        "url": "https://github.com/amjadalnakshbandi/ASE-DDD"
+      },
+      {
+        "name": "DHBW-Study-Smart",
+        "description": "Eine TypeScript-Webanwendung zur Unterstützung des Lernprozesses und Optimierung des Zeitmanagements für DHBW-Studierende.",
+        "technologies": ["TypeScript", "Angular", "Spring", "Java","H2 Database"],
+        "url": "https://github.com/amjadalnakshbandi/dhbw-study-smart"
+      },
+      {
+        "name": "QuoteVault",
+        "description": "Eine Kotlin-basierte mobile Anwendung zur Verwaltung und Anzeige inspirierender Zitate.",
+        "technologies": ["Kotlin", "Mobile App-Entwicklung", "API"],
+        "url": "https://github.com/amjadalnakshbandi/QuoteVault"
+      },
+      {
+        "name":"EasyLog Phone Solutions",
+        "description":"Eine maßgeschneiderte Software zur Verwaltung des Handy-Lagers, die die bisherige EXCEL-Lösung ersetzt und den Bestell- und Lagerprozess effizienter gestaltet.",
+        "technologies":["Java","Spring","Domain-Driven Design (DDD)"],
+        "url":"https://github.com/amjadalnakshbandi/EasyLog#"
+      }
+      
+    ]
+  }
+  

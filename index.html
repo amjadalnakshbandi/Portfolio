@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <title>Software developer & Data Engineer</title>
+
+  <body>
+    <header>
+      <a href="#Home">Home <i class="fa fa-user" aria-hidden="true"></i></a>
+      <a href="#technologie"
+        >Technologie <i class="fa fa-code" aria-hidden="true"></i
+      ></a>
+      <a href="#projects"
+        >Projects <i class="fa fa-cogs" aria-hidden="true"></i>
+      </a>
+    </header>
+
+    <div id="Home">
+      <img src="images/profile-pic.png" alt="" />
+      <h1>Software developer & Data Engineer</h1>
+      <p>
+        Hallo, ich bin Amjad, ein Softwareentwickler und Data Engineer aus
+        Pforzheim, Deutschland. <br />
+        Ich studiere Informatik an der DHBW Karlsruhe. <br />
+        Mit Leidenschaft für Softwareentwicklung habe ich an zahlreichen
+        Projekten mitgewirkt, von der Idee bis zur Umsetzung.
+      </p>
+      <div class="social">
+        <a href="https://github.com/amjadalnakshbandi"
+          ><i class="fa fa-github" aria-hidden="true"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/amjad-alnakshbandi/"
+          ><i class="fa fa-linkedin" aria-hidden="true"></i
+        ></a>
+      </div>
+    </div>
+    <div id="technologie" class="tech-category">
+        <h2>Detaillierte Technologie-Fähigkeiten</h2>
+        
+        <button class="accordion">Programmiersprachen</button>
+        <div class="panel">
+          <ul class="skill-list">
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        
+        <button class="accordion">Webtechnologien und Frameworks</button>
+        <div class="panel">
+          <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>jQuery</li>
+            <li>Flask</li>
+            <li>Servlet</li>
+            <li>Tomcat</li>
+            <li>JSP</li>
+            <li>TypeScript</li>
+            <li>Angular</li>
+            <li>Spring</li>
+          </ul>
+        </div>
+        
+        <button class="accordion">Software Development</button>
+        <div class="panel">
+          <ul class="skill-list">
+            <li>Swing</li>
+            <li>Android-Apps</li>
+            <li>React-Native</li>
+          </ul>
+        </div>
+        
+        <button class="accordion">No Code – Low Code Software Development</button>
+        <div class="panel">
+          <ul class="skill-list">
+            <li>MIT App Inventor</li>
+          </ul>
+        </div>
+        
+        <button class="accordion">Microsoft</button>
+        <div class="panel">
+          <ul class="skill-list">
+            <li>Microsoft Copilot Studio</li>
+            <li>Power BI</li>
+            <li>Power Apps</li>
+            <li>Word</li>
+            <li>PowerPoint</li>
+            <li>Excel</li>
+          </ul>
+        </div>
+        
+        <button class="accordion">Daten Integration</button>
+        <div class="panel">
+          <ul class="skill-list">
+            <li>Talend Studio</li>
+          </ul>
+        </div>
+        
+        <button class="accordion">Prozessautomatisierung</button>
+        <div class="panel">
+          <ul class="skill-list">
+            <li>Camunda</li>
+            <li>ARIS</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects">
+      <h1>Some of the things I have worked on over the last couple years.</h1>
+      <div id="projects-items">
+      </div>
+    </div>
+    <footer>
+      <p>© 2025 Amjad Alnakshbandi. All rights reserved.</p>
+    </footer>
+    
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const accordions = document.getElementsByClassName("accordion");
+        
+        for (let i = 0; i < accordions.length; i++) {
+          accordions[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            const panel = this.nextElementSibling;
+            
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
